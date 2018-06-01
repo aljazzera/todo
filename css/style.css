@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+
+*{
+	margin: 0;
+	padding: 0;
+	transition: all .1s ease-in;
+}
+h1{
+	text-align: center;
+	font-family: 'Jua', sans-serif;
+	font-size: 54px;
+	color: #bf0e3f;
+	margin: 100px 0 20px 0;
+
+}
+h2{
+	margin-top: 10px;
+	font-family: 'Jua', sans-serif;
+}
+li{
+	list-style: none;
+	padding-left: 10px;
+}
+
+body{
+	font-family: verdana;
+}
+
+.container{
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 1px 5px 8px -2px rgba(0,0,0,0.5);
+}
+
+button{
+	padding: 5px;
+	font-weight: bold;
+	outline: none;
+	color:  white;
+	border: 2px solid gray;
+	border-radius: 5px;
+	background-color: gray;
+	margin-left: 5px;
+	-webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+}
+
+button:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+.fa-check{
+	color: green;
+}
+
+
+
+#todo{
+	list-style: none;
+	padding: 0;
+}
+
+input[type="checkbox"]{
+	width: auto;
+}
+
+input{
+	padding: 5px;
+	border-radius: 4px;
+}
+
+.todo-block, .todo-completed{
+	border: 1px solid black;
+	border-radius: 4px;
+	width: 50%;
+	min-height: 30px;
+}
+.check{
+	margin: 0 10px;
+}
+
+.readonly{
+	background-color: #f7f7f7;
+	border: none;
+	margin-left: 10px;
+}
